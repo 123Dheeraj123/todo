@@ -1,16 +1,14 @@
 {
-  "homepage": "https://123Dheeraj123.github.io/newproject",
   "name": "todo",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://123dheeraj123.github.io/newproject",
   "scripts": {
-    "dev": "vite",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh pages -d build",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "react": "^18.2.0",
